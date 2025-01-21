@@ -140,9 +140,6 @@
                         </button>
                         <script>
                             const button = document.getElementById('id_18');
-                            button.addEventListener('click', () => {
-                                window.location.href = 'https://www.saintemarie-saintpierre-caen.fr/';
-                            });
                             document.getElementById('contact-form').addEventListener('submit', async function(event) {
                             event.preventDefault(); // Empêche le rechargement de la page
                 
@@ -165,6 +162,8 @@
                                     },
                                     body: JSON.stringify(formData)
                                 });
+                                window.location.href = 'https://www.saintemarie-saintpierre-caen.fr/';
+                            
                 
                                 if (response.ok) {
                                     window.location.href = 'https://www.saintemarie-saintpierre-caen.fr/';
@@ -179,9 +178,6 @@
                         </script>
                     </form>
                     <script>
-                        button.addEventListener('click', () => {
-                            window.location.href = 'https://www.saintemarie-saintpierre-caen.fr/';
-                        });
                         document.getElementById('contact-form').addEventListener('submit', async function(event) {
                         event.preventDefault(); // Empêche le rechargement de la page
             
@@ -204,6 +200,7 @@
                                 },
                                 body: JSON.stringify(formData)
                             });
+                            window.location.href = 'https://www.saintemarie-saintpierre-caen.fr/';
             
                             if (response.ok) {
                                 window.location.href = 'https://www.saintemarie-saintpierre-caen.fr/';
